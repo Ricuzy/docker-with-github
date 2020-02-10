@@ -1,0 +1,6 @@
+apps:
+    - script: ./index.js
+      name: 'docker-with-github'
+      instances: 4
+      watch: true
+      exec_mode: cluster
